@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
     }
 
     echo "Downloading and unzipping Nugget..."
-    curl -L https://github.com/BudhirajaRajesh/NuggetSDK/releases/download/0.1.2-Nugget/Nugget.xcframework.zip -o Nugget.xcframework.zip
-    verify_checksum "Nugget.xcframework.zip" "25a301c4bb30fc253834cfe6d3c8d7eef6149ef147b8838faf42ebc786ec6041"
+    curl -L https://github.com/Zomato-Nugget/nugget-sdk-ios/releases/download/0.0.8-Nugget/Nugget.xcframework.zip -o Nugget.xcframework.zip
+    verify_checksum "Nugget.xcframework.zip" "a402dadc9e0159a641c5b7a6adea438c0a3ecd1ccb874f59b32869d4161760bb"
     unzip -o Nugget.xcframework.zip
     rm Nugget.xcframework.zip
 
@@ -46,14 +46,14 @@ Pod::Spec.new do |s|
     rm NuggetFoundation.xcframework.zip
 
     echo "Downloading and unzipping NuggetJumbo..."
-    curl -L https://github.com/BudhirajaRajesh/NuggetSDK/releases/download/0.1.2-NuggetJumbo/NuggetJumbo.xcframework.zip -o NuggetJumbo.xcframework.zip
-    verify_checksum "NuggetJumbo.xcframework.zip" "85a1b62bfbf84c4b7422f720683fedf66a8fa7579cfbe3315eac850f643550f7"
+    curl -L https://github.com/Zomato-Nugget/nugget-sdk-ios/releases/download/0.0.2-Jumbo/NuggetJumbo.xcframework.zip -o NuggetJumbo.xcframework.zip
+    verify_checksum "NuggetJumbo.xcframework.zip" "f948156ca7185014e7a9fde0efb1222a8201e677c51a37ffc94902db06cb1b2d"
     unzip -o NuggetJumbo.xcframework.zip
     rm NuggetJumbo.xcframework.zip
 
     echo "Downloading and unzipping ZApiManager..."
-    curl -L https://github.com/BudhirajaRajesh/NuggetSDK/releases/download/0.1.2-ZApiManager/ZApiManager.xcframework.zip -o ZApiManager.xcframework.zip
-    verify_checksum "ZApiManager.xcframework.zip" "9999ca464cadd3751ace81e33d6b6d18c6cc3d92b1dcc53662bc750e4c51b017"
+    curl -L https://github.com/Zomato-Nugget/nugget-sdk-ios/releases/download/0.0.2-ApiManager/ZApiManager.xcframework.zip -o ZApiManager.xcframework.zip
+    verify_checksum "ZApiManager.xcframework.zip" "8d2d4cd17a4988a0c68b2950a100d73a2fc3233822ceb4f573cabc6733e58015"
     unzip -o ZApiManager.xcframework.zip
     rm ZApiManager.xcframework.zip
   CMD
